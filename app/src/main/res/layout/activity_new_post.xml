@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewPostActivity"
+    android:background="#ffffff">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/newPostToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:titleTextColor="#ffffff"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:background="#0073B0"></androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/newPostImage"
+        android:layout_width="360dp"
+        android:layout_height="196.7dp"
+
+
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="45dp"
+
+
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/blog" />
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressbar"
+        android:layout_marginTop="121dp"
+        android:layout_marginLeft="180dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/newPostDesc"
+        android:layout_width="360dp"
+        android:layout_height="122.7dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+         android:hint="Add description..."
+        android:textColorHint="#0073B0"
+        android:background="@drawable/border"
+        android:textColor="#0073B0"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="241.7dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/postBtn"
+        android:layout_width="294.3dp"
+        android:layout_height="46.3dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="406.7dp"
+        android:background="@drawable/submit"
+android:textColor="#ffffff"
+        android:text="POST BLOG" />
+
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="#ffffff">
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:background="#0073B0"
+
+android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></androidx.appcompat.widget.Toolbar>
+
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"
+        android:layout_width="97.3dp"
+        android:layout_height="97.3dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginLeft="131.4dp"
+        app:srcCompat="@drawable/photo" />
+
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressbar"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="155dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="276.3dp"
+        android:layout_height="46.3dp"
+        android:background="@drawable/name"
+        android:layout_marginLeft="44.3dp"
+        android:layout_marginTop="190.3dp"
+        android:textColor="#0073B0"
+        android:textColorHint="#9ECAE1"
+        android:paddingLeft="132dp"
+        android:inputType="textPersonName"
+       />
+
+    <EditText
+    android:id="@+id/gender"
+    android:layout_width="276.3dp"
+    android:layout_height="46.3dp"
+    android:background="@drawable/gender"
+    android:layout_marginLeft="44.3dp"
+    android:layout_marginTop="243.3dp"
+    android:textColor="#0073B0"
+    android:textColorHint="#9ECAE1"
+    android:paddingLeft="132dp"
+    android:inputType="text"
+    />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="276.3dp"
+        android:layout_height="46.3dp"
+        android:background="@drawable/age"
+        android:layout_marginLeft="44.3dp"
+        android:layout_marginTop="296.3dp"
+        android:textColor="#0073B0"
+        android:textColorHint="#9ECAE1"
+        android:paddingLeft="132dp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="276.3dp"
+        android:layout_height="46.3dp"
+        android:background="@drawable/dob"
+        android:layout_marginLeft="44.3dp"
+        android:layout_marginTop="349.3dp"
+        android:textColor="#0073B0"
+        android:textColorHint="#9ECAE1"
+        android:paddingLeft="132dp"
+        android:inputType="date"
+        />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="276.3dp"
+        android:layout_height="46.3dp"
+        android:background="@drawable/mobile"
+        android:layout_marginLeft="44.3dp"
+        android:layout_marginTop="402.3dp"
+        android:textColor="#0073B0"
+        android:textColorHint="#9ECAE1"
+        android:paddingLeft="132dp"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/add"
+        android:layout_width="276.3dp"
+        android:layout_height="46.3dp"
+        android:background="@drawable/address"
+        android:layout_marginLeft="44.3dp"
+        android:layout_marginTop="455.3dp"
+        android:textColor="#0073B0"
+        android:textColorHint="#9ECAE1"
+        android:paddingLeft="132dp"
+        android:inputType="textMultiLine"
+        />
+
+    <EditText
+        android:id="@+id/mh"
+        android:layout_width="276.3dp"
+        android:layout_height="46.3dp"
+        android:background="@drawable/medical"
+        android:layout_marginLeft="44.3dp"
+        android:layout_marginTop="508.3dp"
+        android:textColor="#0073B0"
+        android:textColorHint="#9ECAE1"
+        android:paddingLeft="132dp"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="276.3dp"
+        android:layout_height="46.3dp"
+        android:background="@drawable/submit"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="44.3dp"
+        android:layout_marginTop="580.7dp"
+        android:text="Submit" />
+    <TextView
+        android:text="Verified"
+        android:textColor="#0073B0"
+        android:textAlignment="center"
+
+        android:layout_marginLeft="44.3dp"
+        android:layout_marginTop="630.3dp"
+        android:id="@+id/textViewVerified"
+        android:layout_width="276.3dp"
+        android:layout_height="46.3dp" />
+</RelativeLayout>
